@@ -13,7 +13,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.centered-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formbox{
+  border: 2px solid #282c34 ;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

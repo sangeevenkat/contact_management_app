@@ -11,7 +11,7 @@ function App() {
  
   return (
     <div className="App">
-      <h1 className='z-50 w-full fixed shadow-sm shadow-slate-700 top-0 text-2xl text-yellow-100 bg-indigo-300 font-bold p-4'>
+      <h1 className='z-50 w-full fixed shadow-sm shadow-slate-700 top-0 text-2xl text-yellow-100 bg-indigo-300 font-bold p-4 centered-heading '>
         {
           currentRoute == "/" ? ' Contact Management App' : (currentRoute === "/contact_form" ? "Contact Management App" :(currentRoute === "/edit/1" ? "Contact Management App" : (currentRoute === "/dashboard" ? "Charts and Maps" :"")))
         }
